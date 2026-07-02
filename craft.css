@@ -1,7 +1,7 @@
 .m2{
     background: #f5f9fc;
     /* 新增海浪水印背景，替换成你的海浪图片地址 */
-    background-image: url("../img/craft.background3.jpg");
+    background-image: url("craft.background3.jpg");
     background-repeat: repeat;
     background-size: 220px;
     /* 降低透明度，淡淡的一层，不遮挡卡片 */

@@ -1,0 +1,69 @@
+.m2{
+    background: #f5f9fc;
+    /* 新增海浪水印背景，替换成你的海浪图片地址 */
+    background-image: url("../img/craft.background3.jpg");
+    background-repeat: repeat;
+    background-size: 220px;
+    /* 降低透明度，淡淡的一层，不遮挡卡片 */
+	background-blend-mode: multiply;
+    padding: 30px;
+}
+.wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.goods-card {
+            background: #fff;
+            border-radius: 10px;
+            padding: 26px;
+            margin-bottom: 22px;
+            box-shadow: 0 2px 10px #d0e2f2;
+        }
+.goods-card h2 {
+            color: #0066cc;
+            margin-bottom: 12px;
+            border-bottom: 1px solid #0066cc;
+            padding-bottom: 8px;
+        }
+.goods-card p {
+            line-height: 1.8;
+            color: #333;
+            margin: 8px 0;
+            font-size: 16px;
+        }
+.back-btn {
+            display: block;
+            width: 160px;
+            text-align: center;
+            padding: 10px;
+            background: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            margin: 30px auto;
+}
+.goods-text {
+            background: #fff;
+            border-radius: 10px;
+            padding: 26px;
+            margin-bottom: 22px;
+            box-shadow: 0 2px 10px #d0e2f2;
+            /* 图文左右布局 */
+            display: flex;
+            gap: 24px;
+            align-items: flex-start;
+        }
+        /* 图片容器 */
+.goods-img {
+            width: 360px;
+            height: 260px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #cce0f2;
+			box-shadow: 0 4px 12px;
+			rgba(0,0,0,0.1);
+		}
+.goods-img:hover{
+			transform: scale(1.02);
+			box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+		}
